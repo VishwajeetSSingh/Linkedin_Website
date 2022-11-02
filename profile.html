@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socail Media Website Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="images/logo.png" alt=""></a>
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="#" class="active-link"><img src="images/home.png"><span>Home</span></a></li>
+                <li><a href="#"><img src="images/network.png"><span>My Network</span></a></li>
+                <li><a href="#"><img src="images/jobs.png"><span>Jobs</span></a></li>
+                <li><a href="#"><img src="images/message.png"><span>Messaging</span></a></li>
+                <li><a href="#"><img src="images/notification.png"><span>Notification</span></a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="images/vishwajeet1.jpg" class="nav-profile-img"  onclick="toggleMenu()">
+            </div>
+        </div>
+        <!-- ______________________________Profile-drop-down-menu___________________________ -->
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="images/vishwajeet1.jpg">
+                    <div>
+                        <h3>Vishwajeet Singh</h3>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/feedback.png">
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/setting.png">
+                    <p>Settings & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/help.png">
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/display.png">
+                    <p>Display & Accessibility</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/logout.png">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ------------------------Navbar Close-------------------- -->
+    <div class="container">
+        <div class="profile-main">
+            <div class="profile-container">
+                <img src="images/cover-pic.png" width="100%">
+                <div class="profile-container-inner">
+                    <img src="images/vishwajeet1.jpg" class="profile-pic">
+                    <h1>Vishwajeet Singh</h1>
+                    <b>Student at Shahaji College | Juniour Web developer at IGap Technologies</b>
+                    <p>4th Rajarampuri, Kolhapur &middot; <a href="#">Contact info</a></p>
+                    <div class="mutual-connection">
+                        <img src="images/shivani.jpg">
+                        <span>1 mutual connection: Shivani Chaudhari</span>
+                    </div>
+                    <div class="profile-btn">
+                        <a href="#" class="primary-btn"><img src="images/connect.png">Connect</a>
+                        <a href="#"><img src="images/chat.png">Message</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="profile-description">
+                <h2>About</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis molestiae sunt, iste vero laborum
+                    quae? Distinctio illum enim sint possimus adipisci labore at molestias fugiat dolores optio numquam
+                    nihil, similique facere, eaque omnis id aspernatur corrupti. Quos quam accusantium a nam eligendi
+                    ea, dolorem fugiat veritatis odit nostrum, repudiandae aperiam!</p>
+                <a href="#" class="see-more-link">See more...</a>
+            </div>
+            <div class="profile-description">
+                <h2>Experience</h2>
+                <div class="profile-desc-row">
+                    <img src="images/w3school.jpg">
+                    <div>
+                        <h3>Learned Web Development</h3>
+                        <b>Online Internship &middot; Full-time</b>
+                        <b>Aug 2018- Feb 2020 &middot; 2 years</b>
+                        <p>Computer programming is the process of performing a particular
+                           computation, usually by designing and building an executable cumputer
+                            program.</p>
+                            <hr>
+                    </div>
+                </div>
+                <div class="profile-desc-row">
+                    <img src="images/slack.png">
+                    <div>
+                        <h3>Front-End-Developer</h3>
+                        <b>Slack &middot; Full-time</b>
+                        <b>Jun 2020- feb 2021 &middot; 1 years</b>
+                        <p>Computer programming is the process of performing a particular
+                           computation, usually by designing and building an executable cumputer
+                            program.</p>
+                            <hr>
+                    </div>
+                </div>
+                <div class="profile-desc-row">
+                    <img src="images/igap.jpg">
+                    <div>
+                        <h3>Juniour Web Developer </h3>
+                        <b>IGap Technologies &middot; Full-time</b>
+                        <b>Apr 2022 - Present &middot; 1.5 years</b>
+                        <p>Computer programming is the process of performing a particular
+                           computation, usually by designing and building an executable cumputer
+                            program.</p>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="experinece-link">Show all 7 Experience <img src="images/right-arrow.png"></a>
+            </div>
+            <div class="profile-description">
+                <h2>Education</h2>
+                <div class="profile-desc-row">
+                    <img src="images/shahaji.jpg">
+                    <div>
+                        <h3>Shahaji College</h3>
+                        <b>BCA, Computer Application</b>
+                        <b>2020 - 2023</b>
+                        <hr>
+                    </div>
+                </div>
+                <div class="profile-desc-row">
+                    <img src="images/DDShinde.jpg">
+                    <div>
+                        <h3>D D Shinde College</h3>
+                        <b>Higher Secondary Education</b>
+                        <b>2018 - 2020</b>
+                        <hr>
+                    </div>
+                </div>
+                <div class="profile-desc-row">
+                    <img src="images/holyden.jpg">
+                    <div>
+                        <h3>Holyden Kagal</h3>
+                        <b>High School Education</b>
+                        <b>2006 - 2018</b>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="profile-description">
+                <h2>Skills</h2>
+                <a href="#" class="skills-btn">Leadership</a>
+                <a href="#" class="skills-btn">Web Design</a>
+                <a href="#" class="skills-btn">Development</a>
+                <a href="#" class="skills-btn">Communication</a>
+                <a href="#" class="skills-btn">UI/UX</a>
+                <a href="#" class="skills-btn">Planning</a>
+                <a href="#" class="skills-btn">Coding</a>
+                <a href="#" class="skills-btn">JavaScript</a>
+                <a href="#" class="skills-btn">CSS</a>
+                <a href="#" class="skills-btn">Enterpreneurship</a>
+
+            </div>
+            <div class="profile-description">
+                <h2>Languages</h2>
+                <a href="#" class="language-btn">English</a>
+                <a href="#" class="language-btn">Hindi</a>
+                <a href="#" class="language-btn">Marathi</a>
+            </div>
+        </div>
+        <!-- _________________Profile Sidebar___________________ -->
+        <div class="profile-sidebar">
+            <div class="sidebar-ad">
+                <small>AD &middot; &middot; &middot;</small>
+                <p>Master the 5 principles of web desigh</p>
+                <div>
+                    <img src="images/vishwajeet1.jpg">
+                    <img src="images/mi-logo.png">
+                </div>
+                <b>Brand and Demand in Xiaomi</b>
+                <a href="#" class="add-link">Learn More</a>
+            </div>
+            <div class="sidebar-people">
+                <h3>People You May Know</h3>
+                <div class="sidebar-people-row">
+                    <img src="images/siddesh.jpg">
+                    <div>
+                        <h2>Siddesh Potdar</h2>
+                        <p>Head of Marketing at Alibaba</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/abhi.jpg">
+                    <div>
+                        <h2>Abhishek Chougule</h2>
+                        <p>Head of Marketing at Alibaba</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/shree.jpg">
+                    <div>
+                        <h2>Rohan Upase</h2>
+                        <p>Head of Marketing at Alibaba</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/vicky.jpg">
+                    <div>
+                        <h2>Vivek Bhat</h2>
+                        <p>Head of Marketing at Alibaba</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/vinayak.jpg">
+                    <div>
+                        <h2>Vinayak Morbale</h2>
+                        <p>Head of Marketing at Alibaba</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="profile-footer">
+        <div class="sidebar-useful-links">
+            <a href="#">About</a>
+            <a href="#">Accessibility</a>
+            <a href="#">Help Center</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Advertising</a>
+            <a href="#">Get the App</a>
+            <a href="#">More</a>
+
+            <div class="copyright-msg">
+                <img src="images/logo.png">
+                <p>Linkedup &#169; 2022. All rigth reserved</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        let profileMenu = document.getElementById("profileMenu");
+
+        function toggleMenu() {
+            profileMenu.classList.toggle("open-menu");
+        }
+    </script>
+</body>
+
+</html>
